@@ -15,6 +15,10 @@ In order to transform the public data and use it in our study we performed the f
 * Removed the operator’s column and the address column due to missing information which was not relevant to the focus of this study.
 * Identified duplicates by doing an inner merge on the incident id column across all data sets.
 * Created queries to address our hypothesis by grouping the hotel prices within its rating with the affect of weather data to define the high quality hotels within the price range per night under $95 . We sorted the data in descending order so we could visually see how many hotels within the studied country has high quality hotel service under $95 per night.
+## Weather data
+* Since we can't pull the weather for the whole planet, we used the original airbnb files (for barcelona, sydney, etc.) and the latitude and longitude in those files to derive the cities to pull weather for. We used the Citipy package (from our python api project) to pull cities. We did have to use the country code feature(new to this project) to pull the correct city from the correct country. For example, we are looking for Venice, Italy , not Venice, United States.
+* The actual data from the Open Weather API is very clean, so after we got the correct cities and countries we didn't have to do any special transformations to the actual data. We did only select certain data points from the json to load into our database.
+
 # Load
 The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using Postgres database using PG admin to store our original clean data sets. We reconnected to the database and generated additional tables for the data frames.
 # Summary
