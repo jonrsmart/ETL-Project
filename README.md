@@ -1,5 +1,5 @@
 # ETL-project
-# The focus question of that project is how the covid19 pandemic may advantage vacation takers in terms of budgeting and spending. We used 3 different datasets from the public platform Kaggle and openweather (API), which lead us to the airbnb Archive website. The data in the three files included the following information:
+The focus question of that project is how the covid19 pandemic may advantage vacation takers in terms of budgeting and spending. We used 3 different datasets from the public platform Kaggle and openweather (API), which lead us to the airbnb Archive website. The data in the three files included the following information:
 * Airbnb with covid information:
 
 ![Airbnb covid](https://github.com/jonrsmart/ETL-Project/blob/main/images/airbb-w-covid.png)
