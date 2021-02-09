@@ -1,8 +1,21 @@
 # ETL-project
 # The focus question of that project is how the covid19 pandemic may advantage vacation takers in terms of budgeting and spending. We used 3 different datasets from the public platform Kaggle and openweather (API), which lead us to the airbnb Archive website. The data in the three files included the following information:
-* Airbb_data
-* Weather_data
-* Cleaned_data
+* Airbnb with covid information:
+
+![Airbnb covid](https://github.com/jonrsmart/ETL-Project/blob/main/images/airbb-w-covid.png)
+
+* Weather_data:
+
+![Weather data](https://github.com/jonrsmart/ETL-Project/blob/main/images/weather.png)
+
+* Hotels in Barcelona (File: Cleaned data):
+
+![Hotels in Barcelona](https://github.com/jonrsmart/ETL-Project/blob/main/images/barcelona_hotels.png)
+
+* Flight delay information:
+
+![Flight delays](https://github.com/jonrsmart/ETL-Project/blob/main/images/flight_delays.png)
+
 # The fields of interest include the following:
 * Hotel prices 
 * Hotel rating
